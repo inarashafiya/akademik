@@ -1,0 +1,340 @@
+Aisya Inara As Shafiya
+20/459166/PA/19827
+
+TUGAS 1
+
+1. 
+PS C:\Users\Asus> label
+Volume in drive C: is OS
+Volume Serial Number is AC83-53EA
+Volume label (32 characters, ENTER for none)?
+
+2. 
+PS C:\Users\Asus> hostname
+LAPTOP-PFGGGQDB
+
+3.
+PS C:\Users\Asus> ping
+Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+            [-4] [-6] target_name
+
+Options:
+    -t             Ping the specified host until stopped.
+                   To see statistics and continue - type Control-Break;
+                   To stop - type Control-C.
+    -a             Resolve addresses to hostnames.
+    -n count       Number of echo requests to send.
+    -l size        Send buffer size.
+    -f             Set Don't Fragment flag in packet (IPv4-only).
+    -i TTL         Time To Live.
+    -v TOS         Type Of Service (IPv4-only. This setting has been deprecated
+                   and has no effect on the type of service field in the IP
+                   Header).
+    -r count       Record route for count hops (IPv4-only).
+    -s count       Timestamp for count hops (IPv4-only).
+    -j host-list   Loose source route along host-list (IPv4-only).
+    -k host-list   Strict source route along host-list (IPv4-only).
+    -w timeout     Timeout in milliseconds to wait for each reply.
+    -R             Use routing header to test reverse route also (IPv6-only).
+                   Per RFC 5095 the use of this routing header has been
+                   deprecated. Some systems may drop echo requests if
+                   this header is used.
+    -S srcaddr     Source address to use.
+    -c compartment Routing compartment identifier.
+    -p             Ping a Hyper-V Network Virtualization provider address.
+    -4             Force using IPv4.
+    -6             Force using IPv6.
+
+4.
+PS C:\Users\asus> ipconfig
+
+Windows IP Configuration
+
+
+Unknown adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::84cd:9ec5:b91:fe52%17
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   IPv4 Address. . . . . . . . . . . : 169.254.126.231
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . :
+
+Wireless LAN adapter Local Area Connection* 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 12:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::29da:6064:b5ee:a5eb%7
+   IPv4 Address. . . . . . . . . . . : 192.168.186.35
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.186.124
+
+5. 
+PS C:\Users\asus> help
+
+TOPIC
+    Windows PowerShell Help System
+
+SHORT DESCRIPTION
+    Displays help about Windows PowerShell cmdlets and concepts.
+
+LONG DESCRIPTION
+    Windows PowerShell Help describes Windows PowerShell cmdlets,
+    functions, scripts, and modules, and explains concepts, including
+    the elements of the Windows PowerShell language.
+
+    Windows PowerShell does not include help files, but you can read the
+    help topics online, or use the Update-Help cmdlet to download help files
+    to your computer and then use the Get-Help cmdlet to display the help
+    topics at the command line.
+
+    You can also use the Update-Help cmdlet to download updated help files
+    as they are released so that your local help content is never obsolete.
+
+    Without help files, Get-Help displays auto-generated help for cmdlets,
+    functions, and scripts.
+
+
+  ONLINE HELP
+    You can find help for Windows PowerShell online in the TechNet Library
+    beginning at http://go.microsoft.com/fwlink/?LinkID=108518.
+
+    To open online help for any cmdlet or function, type:
+
+        Get-Help <cmdlet-name> -Online
+
+  UPDATE-HELP
+    To download and install help files on your computer:
+
+       1. Start Windows PowerShell with the "Run as administrator" option.
+       2. Type:
+
+          Update-Help
+
+    After the help files are installed, you can use the Get-Help cmdlet to
+    display the help topics. You can also use the Update-Help cmdlet to
+    download updated help files so that your local help files are always
+    up-to-date.
+
+    For more information about the Update-Help cmdlet, type:
+
+       Get-Help Update-Help -Online
+
+-- More  --
+
+6.
+PS C:\Users\asus> cmd
+Microsoft Windows [Version 10.0.22000.856]
+(c) Microsoft Corporation. All rights reserved.
+
+7.
+C:\Users\asus>logman
+
+Data Collector Set                      Type                          Status
+-------------------------------------------------------------------------------
+
+The command completed successfully.
+
+8.
+C:\Users\asus>time
+The current time is: 11:06:29.04
+Enter the new time:
+
+9.
+C:\Users\asus>dispdiag
+Dump file: C:\Users\asus\DispDiag-20220818-110706-9936-2796.dat
+
+10.
+C:\Users\asus>ksetup
+Machine is not configured to log on to an external KDC.  Probably a workgroup member
+Failed to create Kerberos key: 5 (0x5)
+
+11.
+C:\Users\asus>klist
+
+Current LogonId is 0:0x4e83d
+
+Cached Tickets: (0)
+
+12.
+C:\Users\asus>lodctr
+
+
+LODCTR
+       Updates registry values related to performance counters.
+Usage:
+       LODCTR <INI-filename>
+             Installs counter text strings. INI-filename is the name of the
+             initialization file that contains the counter name definitions
+             and explain text for an extensible counter DLL.
+
+       LODCTR /C:<filename>
+             Upgrades counter text strings using <filename>
+
+       LODCTR /H:<filename>
+             Upgrades help text strings using <filename>
+
+       LODCTR /L:<LangID>
+             Specifies the language for the /C and /H commands
+
+       LODCTR /S:<Backup-filename>
+             Saves the current perf registry strings and info to
+             <Backup-filename>
+
+       LODCTR /R
+             Rebuilds perf registry from scratch based on current registry
+             settings and backup INI files.
+
+       LODCTR /R:<filename>
+             Restores perf registry strings & info using <filename>
+
+       LODCTR /T:<service-name>
+             Sets the specified performance counter provider as trusted.
+
+       LODCTR /Q
+             Displays performance counter provider information.
+
+       LODCTR /Q:<service-name>
+             Displays performance counter provider information for a
+             specific provider.
+
+       LODCTR /E:<service-name>
+             Enables the performance counter provider.
+
+       LODCTR /D:<service-name>
+             Disables the performance counter provider.
+
+       LODCTR /M:<Counter-Manifest> [<Installation-Path>]
+             Installs a v2.0 performance counter provider using the specified
+             XML manifest.
+
+             The installation requires a full path to the DLL containing the
+             performance counter resources (localized  strings). The path
+             to the DLL will be determined as follows:
+
+             If the applicationIdentity attribute in the manifest is a full
+             path, that will be used.
+
+             Otherwise, if <Installation-Path> is provided and is a full
+             path, that will be used.
+
+             Otherwise, if <Counter-Manifest> is a full path, the directory
+             from <Counter-Manifest> will be combined with the DLL name from
+             the applicationIdentity attribute in the manifest.
+
+             Otherwise, the current directory will be combined with the DLL
+             name from the applicationIdentity attribute in the manifest.
+
+Note: Any arguments with spaces in the names must be enclosed within double
+quotation marks.
+
+13.
+C:\Users\asus>nslookup
+DNS request timed out.
+    timeout was 2 seconds.
+Default Server:  UnKnown
+Address:  192.168.186.124
+
+14.
+PS C:\Users\asus> reg
+ERROR: Invalid syntax.
+Type "REG /?" for usage.
+
+15.
+PS C:\Users\asus> sfc
+
+You must be an administrator running a console session in order to
+use the sfc utility.
+
+16.
+PS C:\Users\asus> sc config
+
+cmdlet Set-Content at command pipeline position 1
+Supply values for the following parameters:
+Value[0]: schtasks
+Value[1]:
+
+17.
+PS C:\Users\asus> pathping
+
+Usage: pathping [-g host-list] [-h maximum_hops] [-i address] [-n]
+                [-p period] [-q num_queries] [-w timeout]
+                [-4] [-6] target_name
+
+Options:
+    -g host-list     Loose source route along host-list.
+    -h maximum_hops  Maximum number of hops to search for target.
+    -i address       Use the specified source address.
+    -n               Do not resolve addresses to hostnames.
+    -p period        Wait period milliseconds between pings.
+    -q num_queries   Number of queries per hop.
+    -w timeout       Wait timeout milliseconds for each reply.
+    -4               Force using IPv4.
+    -6               Force using IPv6.
+
+18.
+PS C:\Users\asus> md
+
+cmdlet mkdir at command pipeline position 1
+Supply values for the following parameters:
+Path[0]:
+
+19.
+PS C:\Users\asus> makecab
+Cabinet Maker - Lossless Data Compression Tool
+
+MAKECAB [/V[n]] [/D var=value ...] [/L dir] source [destination]
+MAKECAB [/V[n]] [/D var=value ...] /F directive_file [...]
+
+  source         File to compress.
+  destination    File name to give compressed file.  If omitted, the
+                 last character of the source file name is replaced
+                 with an underscore (_) and used as the destination.
+  /F directives  A file with MakeCAB directives (may be repeated). Refer to
+                 Microsoft Cabinet SDK for information on directive_file.
+  /D var=value   Defines variable with specified value.
+  /L dir         Location to place destination (default is current directory).
+  /V[n]          Verbosity level (1..3).
+
+20.
+PS C:\Users\asus> fsutil
+---- Commands Supported ----
+
+8dot3name         8dot3name management
+behavior          Control file system behavior
+bypassIo          BypassIo management
+dax               Dax volume management
+dirty             Manage volume dirty bit
+file              File specific commands
+fsInfo            File system information
+hardlink          Hardlink management
+objectID          Object ID management
+quota             Quota management
+repair            Self healing management
+reparsePoint      Reparse point management
+storageReserve    Storage Reserve management
+resource          Transactional Resource Manager management
+sparse            Sparse file control
+tiering           Storage tiering property management
+trace             File system trace management
+transaction       Transaction management
+usn               USN management
+volume            Volume management
+wim               Transparent wim hosting management
